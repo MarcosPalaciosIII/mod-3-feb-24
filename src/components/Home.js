@@ -1,17 +1,10 @@
-// import React, { Component } from 'react'
+import React from "react";
 
-// export default class Home extends Component {
-//     constructor() {
-//         this.state = {
-//             name: '',
-//             age: 20
-//         }
-//     }
-
-//   render() {
-//     return (
-//       <div>Home</div>
-//     )
-//   }
-// }
-// ^ the above code is no longer used in moddern react coding
+export default function Home() {
+	return (
+		<div>
+			<h2>Home Page</h2>
+			<h3>Welcome to the Iron Dome!</h3>
+		</div>
+	);
+}
